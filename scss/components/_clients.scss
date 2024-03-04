@@ -1,0 +1,31 @@
+.main__clients-title {
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+
+.main__clients-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.main__clients-item {
+    width: 106px;
+    height: 60px;
+    fill: #AFB1B8;
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    margin-bottom: 94px;
+    padding: 16px 32px 16px 32px;
+}
+
+.main__clients-item:hover {
+    fill: var(--header-web);
+    border: 1px solid var(--header-web);
+}

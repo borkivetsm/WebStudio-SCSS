@@ -1,0 +1,74 @@
+.main__team {
+    padding-bottom: 94px;
+    padding-top: 94px;
+    background-color: var(--button);
+}
+
+.main__team-title{
+    color: var(--li-h2);
+    font-weight: 700;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.main__team-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__team-img {
+    width: 270px;
+    height: 268px;
+    margin-bottom: 30px;
+}
+
+.main__team-item {
+    background-color: var(--main-title);
+    width: 270px;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.main__team-name {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--li-h2);
+    margin-bottom: 10px;
+}
+
+.main__team-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--li-p);
+}
+
+.main__team-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 16px;
+    gap: 8px;
+}
+
+.main__team-icon {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+}
+
+.main__team-link:hover .main__team-icon {
+    fill: var(--footer-icon);
+}
+
+.main__team-link:hover {
+    background-color: var(--header-web);
+}

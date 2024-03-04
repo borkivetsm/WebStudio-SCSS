@@ -1,0 +1,37 @@
+/* Post */
+.main__post-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900px;
+    font-size: 44px;
+    text-align: center;
+    line-height: 136%;
+    text-transform: uppercase;
+    color: var(--main-title);
+    margin-bottom: 30px;
+}
+
+.main__post {
+background-color: var(--main);
+padding-top: 200px;
+padding-bottom: 200px;
+background-image: url(./img/bg.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.main__post-btn {
+font-size: 16px;
+font-weight: 700;
+color: var(--main-title);
+background-color: #2196f3;
+font-family: "Roboto", sans-serif;
+border-radius: 4px;
+width: 216px;
+height: 50px;
+flex-shrink: 0;
+border: none;
+padding: 10px 32px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+cursor: pointer;
+}

@@ -1,0 +1,57 @@
+.main__benefits {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.main__benefits-text {
+font-weight: 400;
+font-size: 14px;
+color: var(--li-p);
+font-family: "Roboto", sans-serif;
+line-height: 171%;
+letter-spacing: 0.42px;
+}
+
+.main__benefits-title {
+color: var(--li-h2);
+font-weight: 700;
+font-size: 14px;
+font-family: "Roboto", sans-serif;
+text-transform: uppercase;
+margin-bottom: 10px;
+margin-top: 30px;
+}
+
+.main__benefits-item {
+width: 270px;
+}
+
+.main__benefits-item::before {
+content: "";
+display: block;
+width: 100%;
+height: 120px;
+background-color: var(--button);
+border-radius: 4px;
+background-image: url(./img);
+background-size: 70px;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.main__benefits-item:nth-child(2)::before {
+background-image: url(./img/clock.webp);
+}
+
+.main__benefits-item:nth-child(3)::before {
+background-image: url(./img/diagrama.webp);
+}
+
+.main__benefits-item:nth-child(4)::before {
+background-image: url(./img/astronaut.webp);
+}
+
+.main__benefits-list {
+display: flex;
+justify-content: space-between;
+}

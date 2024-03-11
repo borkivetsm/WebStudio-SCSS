@@ -1,33 +1,30 @@
-.main__team {
-    padding-bottom: 94px;
-    padding-top: 94px;
-    background-color: var(--button);
+.team {
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background-color: $button;
 }
 
-.main__team-title{
-    color: var(--li-h2);
+.team__title {
+    color: $li-h2;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 28px;
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     margin-bottom: 10px;
     margin-top: 30px;
+    display: block;
+    margin: 0 auto;
 }
 
-.main__team-list {
-    display: flex;
-    justify-content: space-between;
-}
-
-.main__team-img {
-    width: 270px;
-    height: 268px;
+.team__img {
+    width: 450px;
+    height: 460px;
     margin-bottom: 30px;
 }
 
-.main__team-item {
-    background-color: var(--main-title);
-    width: 270px;
+.team__item {
+    background-color: $main-title;
+    width: 450px;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     display: flex;
@@ -36,39 +33,156 @@
     padding-bottom: 30px;
 }
 
-.main__team-name {
+.team__name {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    font-weight: 600;
-    color: var(--li-h2);
+    font-weight: 500;
+    color: $li-h2;
     margin-bottom: 10px;
 }
 
-.main__team-text {
+.team__text {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
-    color: var(--li-p);
+    color: $li-p;
 }
 
-.main__team-icons {
+.team__icons {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 16px;
-    gap: 8px;
+    gap: 10px;
 }
 
-.main__team-icon {
+.team__icon {
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
 }
 
-.main__team-link:hover .main__team-icon {
-    fill: var(--footer-icon);
+.team__link:hover .main__team-icon {
+    fill: $footer-icon;
 }
 
-.main__team-link:hover {
-    background-color: var(--header-web);
+.team__link:hover {
+    background-color: $header-web
 }
+
+@media screen and (min-width: 768px) {
+    .team__list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    .team__img {
+        width: 354px;
+        height: 374px;
+    }
+
+    .team__item {
+        width: 354px;
+    }
+}
+
+@media screen and (min-width: 94px) {
+    .main__team {
+        padding-bottom: 94px;
+        padding-top: 94px;
+    }
+
+    .team__title {
+        font-size: 36px;
+    }
+
+    .team__list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    .team__img {
+        width: 270px;
+        height: 260px;
+    }
+
+    .team__item {
+        width: 270px;
+    }
+}
+// .main__team {
+//     padding-bottom: 94px;
+//     padding-top: 94px;
+//     background-color: var(--button);
+// }
+
+// .main__team-title{
+//     color: var(--li-h2);
+//     font-weight: 700;
+//     font-size: 14px;
+//     font-family: "Roboto", sans-serif;
+//     text-transform: uppercase;
+//     margin-bottom: 10px;
+//     margin-top: 30px;
+// }
+
+// .main__team-list {
+//     display: flex;
+//     justify-content: space-between;
+// }
+
+// .main__team-img {
+//     width: 270px;
+//     height: 268px;
+//     margin-bottom: 30px;
+// }
+
+// .main__team-item {
+//     background-color: var(--main-title);
+//     width: 270px;
+//     border-radius: 0px 0px 4px 4px;
+//     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     padding-bottom: 30px;
+// }
+
+// .main__team-name {
+//     font-family: "Roboto", sans-serif;
+//     font-size: 16px;
+//     font-weight: 600;
+//     color: var(--li-h2);
+//     margin-bottom: 10px;
+// }
+
+// .main__team-text {
+//     font-family: "Roboto", sans-serif;
+//     font-size: 16px;
+//     font-weight: 400;
+//     color: var(--li-p);
+// }
+
+// .main__team-icons {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-around;
+//     margin-top: 16px;
+//     gap: 8px;
+// }
+
+// .main__team-icon {
+//     width: 20px;
+//     height: 20px;
+//     fill: #AFB1B8;
+// }
+
+// .main__team-link:hover .main__team-icon {
+//     fill: var(--footer-icon);
+// }
+
+// .main__team-link:hover {
+//     background-color: var(--header-web);
+// }

@@ -572,10 +572,20 @@ h1, h2, h3, h4, h5, h6, p {
   padding-bottom: 30px;
 }
 
+.work__title {
+  color: #212121;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 .work__item {
   width: 450px;
   height: 460px;
   position: relative;
+  margin-bottom: 30px;
 }
 
 .work__img {
@@ -598,15 +608,6 @@ h1, h2, h3, h4, h5, h6, p {
   padding-bottom: 27px;
   width: 100%;
   bottom: 3px;
-}
-
-.work__title {
-  color: #212121;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  margin-bottom: 50px;
-  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -658,8 +659,7 @@ h1, h2, h3, h4, h5, h6, p {
   text-transform: uppercase;
   margin-bottom: 10px;
   margin-top: 30px;
-  display: block;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .team__img {
@@ -685,6 +685,7 @@ h1, h2, h3, h4, h5, h6, p {
       -ms-flex-align: center;
           align-items: center;
   padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .team__name {
@@ -738,8 +739,8 @@ h1, h2, h3, h4, h5, h6, p {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .team__img {
     width: 354px;
@@ -749,7 +750,7 @@ h1, h2, h3, h4, h5, h6, p {
     width: 354px;
   }
 }
-@media screen and (min-width: 94px) {
+@media screen and (min-width: 1200px) {
   .main__team {
     padding-bottom: 94px;
     padding-top: 94px;

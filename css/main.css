@@ -664,8 +664,11 @@ h1, h2, h3, h4, h5, h6, p {
 
 .team__img {
   width: 450px;
-  height: 460px;
   margin-bottom: 30px;
+}
+
+.team__list {
+  width: 450px;
 }
 
 .team__item {
@@ -751,7 +754,7 @@ h1, h2, h3, h4, h5, h6, p {
   }
 }
 @media screen and (min-width: 1200px) {
-  .main__team {
+  .team {
     padding-bottom: 94px;
     padding-top: 94px;
   }
@@ -774,6 +777,7 @@ h1, h2, h3, h4, h5, h6, p {
   }
   .team__item {
     width: 270px;
+    margin: 15px;
   }
 }
 .clients__title {
@@ -918,7 +922,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .footer__input {
-  width: 450px;
+  min-width: 290px;
+  max-width: 450px;
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   background-color: #2F303A;

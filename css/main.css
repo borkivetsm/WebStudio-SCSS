@@ -570,6 +570,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .work {
   padding-bottom: 30px;
+  display: none;
 }
 
 .work__title {
@@ -633,6 +634,7 @@ h1, h2, h3, h4, h5, h6, p {
 @media screen and (min-width: 1200px) {
   .work {
     padding-bottom: 94px;
+    display: block;
   }
   .work__list {
     display: -webkit-box;

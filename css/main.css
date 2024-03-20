@@ -1011,36 +1011,35 @@ h1, h2, h3, h4, h5, h6, p {
   }
 }
 .portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.portfolio__filter-item {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 1px;
-  margin-right: 8px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .portfolio__filter-list {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 1px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-bottom: 50px;
+  gap: 8px;
+}
+
+.portfolio__filter-item {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .portfolio__filter-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  border: none;
   border-radius: 4px;
-  color: var(--nav);
+  border: none;
+  color: #212121;
   padding: 6px 22px;
   font-size: 16px;
   line-height: 162.5%;
@@ -1050,32 +1049,25 @@ h1, h2, h3, h4, h5, h6, p {
 
 .portfolio__filter-button:hover,
 .portfolio__filter-button:focus {
-  background-color: var(--header-web);
-  color: var(--main-title);
-  border: none;
+  background-color: #2196f3;
+  color: #ffffff;
   border-radius: 4px;
+  border: none;
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .portfolio__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   gap: 30px;
+  margin: 0 auto;
 }
 
-.portfolio-box {
-  padding: 20px 24px;
+.portfolio__box {
+  padding: 20px 20px;
 }
 
 .portfolio__item {
-  border: 1px solid var(--border-color);
+  border: 1px solid #eee;
   width: 370px;
   -webkit-transition-property: -webkit-box-shadow;
   transition-property: -webkit-box-shadow;
@@ -1085,6 +1077,7 @@ h1, h2, h3, h4, h5, h6, p {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 30px;
 }
 
 .portfolio__item:hover,
@@ -1097,13 +1090,13 @@ h1, h2, h3, h4, h5, h6, p {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  color: var(--li-h2);
+  color: #212121;
   margin-bottom: 4px;
 }
 
 .portfolio__text {
   font-family: "Roboto", sans-serif;
-  color: var(--li-p);
+  color: #757575;
   font-size: 16px;
   font-weight: 400;
 }
@@ -1121,9 +1114,9 @@ h1, h2, h3, h4, h5, h6, p {
   line-height: 1.6;
   letter-spacing: 0.03em;
   background-color: rgba(33, 150, 243, 0.9);
-  color: var(--main-title);
+  color: #ffffff;
   width: 100%;
-  padding: 63px 24px;
+  padding: 77px 24px;
   opacity: 0;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -1137,7 +1130,7 @@ h1, h2, h3, h4, h5, h6, p {
           transform: translateY(100%);
 }
 
-.portfolio__link:hover .product-action {
+.portfolio__item:hover .product__action {
   opacity: 1;
   -webkit-transform: translateY(0);
           transform: translateY(0);
@@ -1146,4 +1139,46 @@ h1, h2, h3, h4, h5, h6, p {
 .section-main {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio__filter-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .portfolio__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 30px;
+  }
+  .portfolio__box {
+    padding: 20px 56px;
+  }
+  .product__action {
+    padding: 49px 24px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .product__action {
+    padding: 63px 24px;
+  }
+  .portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .portfolio__box {
+    padding: 20px 56px;
+  }
 }/*# sourceMappingURL=main.css.map */

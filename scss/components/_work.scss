@@ -4,10 +4,7 @@
 }
 
 .work__title {
-  color: #212121;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
+  @extend %section-title;
   margin-bottom: 50px;
   text-align: center;
 }
@@ -43,8 +40,7 @@
 
 @media screen and (min-width: 768px) {
   .work__list {
-    display: flex;
-    justify-content: space-between;
+    @include flex();
     flex-wrap: wrap;
   }
 

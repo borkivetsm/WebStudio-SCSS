@@ -40,6 +40,13 @@ h1, h2, h3, h4, h5, h6, p {
     width: 1200px;
   }
 }
+.clients__title, .team__title, .work__title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+}
+
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
@@ -574,10 +581,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .work__title {
-  color: #212121;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
   margin-bottom: 50px;
   text-align: center;
 }
@@ -654,11 +657,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .team__title {
-  color: #212121;
-  font-weight: 700;
-  font-size: 28px;
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
   margin-bottom: 10px;
   margin-top: 30px;
   text-align: center;
@@ -783,11 +781,7 @@ h1, h2, h3, h4, h5, h6, p {
   }
 }
 .clients__title {
-  color: #212121;
   text-align: center;
-  font-family: Roboto;
-  font-size: 28px;
-  font-weight: 700;
   letter-spacing: 1.08px;
   margin-top: 60px;
   margin-bottom: 30px;
@@ -824,9 +818,9 @@ h1, h2, h3, h4, h5, h6, p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }

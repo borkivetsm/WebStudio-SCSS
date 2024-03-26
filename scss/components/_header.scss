@@ -1,3 +1,4 @@
+
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
@@ -19,6 +20,7 @@
 .header__navigation {
   font-size: 14px;
   font-weight: 500;
+  display: none;
 }
 
 .header__wrap {
@@ -94,7 +96,7 @@
 .header__contacts {
   font-size: 14px;
   font-weight: 500;
-  display: flex;
+  display: none;
 }
 
 .header__contacts .header__contact-link:hover {
@@ -115,3 +117,12 @@
   margin-right: 10px;
 }
 
+@media screen and (min-width: 768px) {
+  .header__navigation {
+    display: block;
+  }
+
+  .header__contacts {
+    display: flex;
+  }
+}

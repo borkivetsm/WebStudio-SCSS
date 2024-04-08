@@ -20,16 +20,48 @@
     background-position: center;
 }
 
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .benefits__item::before {
+        background-image: url(./../../img/tablet/antenna@2x.png);
+    }
+}
+
 .benefits__item:nth-child(2)::before {
-    background-image: url(./../../img/clock.webp);
+    background-image: url(./../../img/mobile/clock.webp);
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .benefits__item:nth-child(2)::before {
+        background-image: url(./../../img/tablet/clock@2x.png);
+    }
 }
 
 .benefits__item:nth-child(3)::before {
-    background-image: url(./../../img/diagrama.webp);
+    background-image: url(./../../img/mobile/diagrama.webp);
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .benefits__item:nth-child(3)::before {
+        background-image: url(./../../img/tablet/diagrama@2x.png);
+    }
 }
 
 .benefits__item:nth-child(4)::before {
-    background-image: url(./../../img/astronaut.webp);
+    background-image: url(./../../img/mobile/astronaut.webp);
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .benefits__item:nth-child(4)::before {
+        background-image: url(./../../img/tablet/astronaut@2x.png);
+    }
 }
 
 .benefits__title {

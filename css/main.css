@@ -376,6 +376,11 @@ h1, h2, h3, h4, h5, h6, p {
   background-size: cover;
 }
 
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .post {
+    background-image: url(./../../img/bg@2x.png);
+  }
+}
 .post__title {
   font-family: "Roboto", sans-serif;
   font-weight: 900px;

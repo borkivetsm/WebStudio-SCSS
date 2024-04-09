@@ -22,7 +22,11 @@ h1, h2, h3, h4, h5, h6, p{
     width: 320px;
     margin: 0 auto;
     padding: 0 15px;
-  }
+}
+
+img {
+    max-width: 100%;
+}
 
 @media screen and (min-width: 480px) {
     .container {

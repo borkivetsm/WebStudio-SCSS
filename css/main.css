@@ -25,6 +25,10 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 0 15px;
 }
 
+img {
+  max-width: 100%;
+}
+
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
@@ -370,7 +374,7 @@ h1, h2, h3, h4, h5, h6, p {
   padding-top: 118px;
   padding-bottom: 118px;
   background-color: #2f303a;
-  background-image: url(./../../img/bg.png);
+  background-image: url(../img/bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -378,7 +382,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .post {
-    background-image: url(./../../img/bg@2x.png);
+    background-image: url(../img/bg@2x.png);
   }
 }
 .post__title {
@@ -689,7 +693,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .benefits__item::before {
-    background-image: url(./../../img/tablet/antenna@2x.png);
+    background-image: url(../img/tablet/antenna@2x.png);
   }
 }
 .benefits__item:nth-child(2)::before {
@@ -698,7 +702,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .benefits__item:nth-child(2)::before {
-    background-image: url(./../../img/tablet/clock@2x.png);
+    background-image: url(../img/tablet/clock@2x.png);
   }
 }
 .benefits__item:nth-child(3)::before {
@@ -707,7 +711,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .benefits__item:nth-child(3)::before {
-    background-image: url(./../../img/tablet/diagrama@2x.png);
+    background-image: url(../img/tablet/diagrama@2x.png);
   }
 }
 .benefits__item:nth-child(4)::before {
@@ -716,7 +720,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .benefits__item:nth-child(4)::before {
-    background-image: url(./../../img/tablet/astronaut@2x.png);
+    background-image: url(../img/tablet/astronaut@2x.png);
   }
 }
 .benefits__title {
@@ -807,7 +811,7 @@ h1, h2, h3, h4, h5, h6, p {
   padding-top: 27px;
   padding-bottom: 27px;
   width: 100%;
-  bottom: 3px;
+  bottom: 92px;
 }
 
 @media screen and (min-width: 768px) {

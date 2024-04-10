@@ -685,7 +685,7 @@ img {
   height: 120px;
   background-color: #f5f4fa;
   border-radius: 4px;
-  background-image: url(./../../img/antenna.webp);
+  background-image: url(../img/antenna.webp);
   background-size: 70px;
   background-repeat: no-repeat;
   background-position: center;
@@ -697,7 +697,7 @@ img {
   }
 }
 .benefits__item:nth-child(2)::before {
-  background-image: url(./../../img/mobile/clock.webp);
+  background-image: url(../img/mobile/clock.webp);
 }
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -706,7 +706,7 @@ img {
   }
 }
 .benefits__item:nth-child(3)::before {
-  background-image: url(./../../img/mobile/diagrama.webp);
+  background-image: url(../img/mobile/diagrama.webp);
 }
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -715,7 +715,7 @@ img {
   }
 }
 .benefits__item:nth-child(4)::before {
-  background-image: url(./../../img/mobile/astronaut.webp);
+  background-image: url(../img/mobile/astronaut.webp);
 }
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -1187,7 +1187,7 @@ img {
     font-size: 26px;
   }
   .footer__p-text {
-    margin-top: 72px;
+    margin-top: px;
   }
   .footer__input-wrapper {
     display: -webkit-box;

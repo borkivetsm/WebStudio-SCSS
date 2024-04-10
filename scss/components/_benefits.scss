@@ -14,7 +14,7 @@
     height: 120px;
     background-color: $button;
     border-radius: 4px;
-    background-image: url(./../../img/antenna.webp);
+    background-image: url(../img/antenna.webp);
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
@@ -29,7 +29,7 @@
 }
 
 .benefits__item:nth-child(2)::before {
-    background-image: url(./../../img/mobile/clock.webp);
+    background-image: url(../img/mobile/clock.webp);
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -41,7 +41,7 @@
 }
 
 .benefits__item:nth-child(3)::before {
-    background-image: url(./../../img/mobile/diagrama.webp);
+    background-image: url(../img/mobile/diagrama.webp);
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -53,7 +53,7 @@
 }
 
 .benefits__item:nth-child(4)::before {
-    background-image: url(./../../img/mobile/astronaut.webp);
+    background-image: url(../img/mobile/astronaut.webp);
 }
 
 @media (min-device-pixel-ratio: 2),

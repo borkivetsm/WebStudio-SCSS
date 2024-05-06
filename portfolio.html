@@ -50,6 +50,97 @@
         </ul>
       </div>
     </header> -->
+    <header class="header">
+      <div class="container header__wrap">
+        <div class="header__nav-wrap">
+          <a class="header__logo" href="#">Web<span class="header__black">Studio</span></a>
+          <nav class="header__navigation">
+            <ul class="header__site-nav">
+              <li class="header__site-nav-item">
+                <a class="header__site-nav-link" href="index.html">Студія</a>
+              </li>
+              <li class="header__site-nav-item">
+                <a class="header__site-nav-link current" href="portfolio.html">Портфоліо</a>
+              </li>
+              <li class="header__site-nav-item">
+                <a class="header__site-nav-link" href="#">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <ul class="header__contacts">
+          <li class="header__contacts-item header__gmail">
+            <a class="header__contact-link" href="mailto:info@devstudio.com">
+              <svg width="16" height="12" class="header__contact-icon"> <use href="./img/symbol-defs.svg#icon-email"></use></svg>
+              info@devstudio.com</a>
+          </li>
+          <li class="header__contacts-item">
+            <a class="header__contact-link" href="tel:+380961111111">
+              <svg  width="10" height="16" class="contact-icon">
+                <use href="./img/symbol-defs.svg#icon-phone"></use>
+              </svg>+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- mobile menu -->
+      <button type="button" class="menu__button js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg class="menu__button-open">
+          <use href="./img/symbol-defs-menu.svg#icon-open"></use>
+        </svg>
+      </button>
+      <div class="menu__container js-menu-container" id="mobile-menu">
+        <button type="button" class="menu__button js-close-menu">
+          <svg class="menu__button-close js-close-menu">
+            <use href="./img/symbol-defs-menu.svg#icon-close"></use>
+          </svg>
+        </button>
+        <div class="menu__box">
+          <div class="mobile__menu">
+            <nav class="mobile__nav">
+              <ul class="mobile__nav-list">
+                <li class="mobile__nav-item">
+                  <a href="" class="mobile__nav-link">Студія</a>
+                </li>
+                <li class="mobile__nav-item">
+                  <a href="" class="mobile__nav-link">Портфоліо</a>
+                </li>
+                <li class="mobile__nav-item">
+                  <a href="" class="mobile__nav-link">Контакти</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="mobile__socials">
+            <ul class="mobile__contacts">
+              <li class="mobile__contacts-item">
+                <a href="tel:+380961111111" class="mobile__contacts-tel">+380961111111</a>
+              </li>
+              <li class="mobile__contacts-item">
+                <a href="mailto:info@devstudio.com" class="mobile__contacts-mail">info@devstudio.com</a>
+              </li>
+            </ul>
+            <ul class="mobile__socials-list">
+              <li class="mobile__socials-item">
+                <a href="" class="mobile__socials-link">Instagram</a>
+              </li>
+              <li class="mobile__socials-item">
+                <a href="" class="mobile__socials-link">Twitter</a>
+              </li>
+              <li class="mobile__socials-item">
+                <a href="" class="mobile__socials-link">Facebook</a>
+              </li>
+              <li class="mobile__socials-item">
+                <a href="" class="mobile__socials-link">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+    </header>
+
+
 
     <main>
       <section class="portfolio">
@@ -319,5 +410,6 @@
       </div>
     </footer>
     <script src="./js/mobile-menu.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

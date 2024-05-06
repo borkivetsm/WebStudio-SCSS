@@ -59,14 +59,18 @@
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
+    padding: 10px;
 }
 
-.team__link:hover .main__team-icon {
+.team__link:hover .team__icon {
     fill: $footer-icon;
+    
 }
 
 .team__link:hover {
-    background-color: $header-web
+    background-color: $header-web;
+    border-radius: 100px;
+    
 }
 
 @media screen and (min-width: 768px) {
